@@ -1,6 +1,18 @@
 <?php
 
 return [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    'paths' => ['api/*', 'sanctum/csrf-cookie', 'sanctum/*'],
+    'allowed_methods' => ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allow all HTTP methods
+    'allowed_origins' => ['https://sealink-admin-frontend.onrender.com'], // Specify frontend URL only
+    'allowed_headers' => ['Content-Type', 'Authorization'], // Allow specific headers
+    'exposed_headers' => ['*'], // Expose all headers
+    'supports_credentials' => true, // Allow credentials
+    'max_age' => 86400, // Cache preflight response for 1 day
+=======
+>>>>>>> ca74bf0 (Resolved merge conflicts)
 
     /*
     |--------------------------------------------------------------------------
@@ -31,4 +43,8 @@ return [
 
     'supports_credentials' => false,
 
+<<<<<<< HEAD
+=======
+>>>>>>> 6831c52 (cors file updated)
+>>>>>>> ca74bf0 (Resolved merge conflicts)
 ];

@@ -16,12 +16,32 @@ use App\Http\Controllers\EmployeeFollowupController;
 use App\Http\Controllers\QuoteController;
 use App\Http\Controllers\ShipmentController;
 use App\Http\Controllers\VendorController;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+=======
+>>>>>>> 6831c52 (cors file updated)
+>>>>>>> ca74bf0 (Resolved merge conflicts)
 
 // Public routes (no authentication required)
 Route::post('/login', [AuthController::class, 'login'])->name('login');
 
 Route::post('/register', [AuthController::class, 'register']);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Route::get('/debug-headers', function (Request $request) {
+    Log::info('Debug Headers Route Hit', ['headers' => $request->headers->all()]);
+    return response()->json($request->headers->all());
+});
+
+
+=======
+>>>>>>> 6831c52 (cors file updated)
+>>>>>>> ca74bf0 (Resolved merge conflicts)
 // Authenticated routes (must be logged in with Sanctum token)
 Route::middleware('auth:sanctum')->group(function () {
 

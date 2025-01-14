@@ -39,6 +39,13 @@ class Kernel extends HttpKernel
         ],
 
         'api' => [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            \App\Http\Middleware\CorsMiddleware::class,
+=======
+>>>>>>> 6831c52 (cors file updated)
+>>>>>>> ca74bf0 (Resolved merge conflicts)
             \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class, // Sanctum middleware
             \Illuminate\Routing\Middleware\ThrottleRequests::class . ':api',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,

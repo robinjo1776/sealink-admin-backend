@@ -46,11 +46,27 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
+<<<<<<< HEAD
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
+=======
+<<<<<<< HEAD
+            'host' => env('DB_HOST', 'sql12.freesqldatabase.com'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'sql12755801'),
+            'username' => env('DB_USERNAME', 'sql12755801'),
+            'password' => env('DB_PASSWORD', 'kqaLq1FsCl'),
+=======
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
+>>>>>>> 6831c52 (cors file updated)
+>>>>>>> ca74bf0 (Resolved merge conflicts)
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
@@ -125,23 +141,57 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),
+<<<<<<< HEAD
             'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
+=======
+<<<<<<< HEAD
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_'),
+=======
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
+>>>>>>> 6831c52 (cors file updated)
+>>>>>>> ca74bf0 (Resolved merge conflicts)
         ],
 
         'default' => [
             'url' => env('REDIS_URL'),
+<<<<<<< HEAD
             'host' => env('REDIS_HOST', '127.0.0.1'),
             'password' => env('REDIS_PASSWORD',null),
             'port' => env('REDIS_PORT', '6379'),
+=======
+<<<<<<< HEAD
+            'host' => env('REDIS_HOST', 'ec2-54-235-83-196.compute-1.amazonaws.com'),
+            'password' => env('REDIS_PASSWORD', 'pa647f2442cdc7bc59de1f22ee336387e2c94cb4451a520ad5af7860e18b9ddac'),
+            'port' => env('REDIS_PORT', '30450'),
+=======
+            'host' => env('REDIS_HOST', '127.0.0.1'),
+            'password' => env('REDIS_PASSWORD',null),
+            'port' => env('REDIS_PORT', '6379'),
+>>>>>>> 6831c52 (cors file updated)
+>>>>>>> ca74bf0 (Resolved merge conflicts)
             'database' => env('REDIS_DB', '0'),
         ],
 
         'cache' => [
             'url' => env('REDIS_URL'),
+<<<<<<< HEAD
             'host' => env('REDIS_HOST', '127.0.0.1'),
             'username' => env('REDIS_USERNAME'),
             'password' => env('REDIS_PASSWORD'),
             'port' => env('REDIS_PORT', '6379'),
+=======
+<<<<<<< HEAD
+            'host' => env('REDIS_HOST', 'ec2-54-235-83-196.compute-1.amazonaws.com'),
+            'username' => env('REDIS_USERNAME'),
+            'password' => env('REDIS_PASSWORD'),
+            'port' => env('REDIS_PORT', '30450'),
+=======
+            'host' => env('REDIS_HOST', '127.0.0.1'),
+            'username' => env('REDIS_USERNAME'),
+            'password' => env('REDIS_PASSWORD'),
+            'port' => env('REDIS_PORT', '6379'),
+>>>>>>> 6831c52 (cors file updated)
+>>>>>>> ca74bf0 (Resolved merge conflicts)
             'database' => env('REDIS_CACHE_DB', '1'),
         ],
 

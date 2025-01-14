@@ -128,7 +128,15 @@ return [
 
     'cookie' => env(
         'SESSION_COOKIE',
+<<<<<<< HEAD
         Str::slug(env('APP_NAME', 'laravel'), '_').'_session'
+=======
+<<<<<<< HEAD
+        Str::slug(env('APP_NAME', 'laravel'), '_') . '_session'
+=======
+        Str::slug(env('APP_NAME', 'laravel'), '_').'_session'
+>>>>>>> 6831c52 (cors file updated)
+>>>>>>> ca74bf0 (Resolved merge conflicts)
     ),
 
     /*
@@ -155,7 +163,15 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'domain' => env('SESSION_DOMAIN'),
+=======
+<<<<<<< HEAD
+    'domain' => env('SESSION_DOMAIN', '.herokuapp.com'),
+=======
+    'domain' => env('SESSION_DOMAIN'),
+>>>>>>> 6831c52 (cors file updated)
+>>>>>>> ca74bf0 (Resolved merge conflicts)
 
     /*
     |--------------------------------------------------------------------------

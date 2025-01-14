@@ -54,7 +54,15 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'url' => env('APP_URL', 'http://localhost'),
+=======
+<<<<<<< HEAD
+    //'url' => env('APP_URL', 'https://sealink-logistics-9b22514c9549.herokuapp.com'),
+=======
+    'url' => env('APP_URL', 'http://localhost'),
+>>>>>>> 6831c52 (cors file updated)
+>>>>>>> ca74bf0 (Resolved merge conflicts)
 
     'asset_url' => env('ASSET_URL', '/'),
 
